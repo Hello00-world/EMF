@@ -36,6 +36,11 @@ flutter build apk --release
 - 의료기기·공인 계측기가 아닌, 일상 환경 **상대 비교·습관 형성**용 앱입니다.
 - 원시 센서 데이터는 기기 내 처리가 기본이며, Gemini는 설정 시 요약 통계만 전송합니다.
 
+## 문서
+
+- `docs/EMF_발표_최종.pptx` — 발표 자료
+- `docs/EMF_Quantum_Focus_Presentation_Integrated.docx` — 발표 통합 원고 (Word)
+
 ## 버전
 
 1.0.0+1
