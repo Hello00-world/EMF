@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sensor_magnetometer_rationale">
+        The magnetometer is used only to measure and visualize nearby electromagnetic conditions. Raw readings are processed on-device and are not uploaded to our servers.
+    </string>
+    <string name="camera_ar_rationale">
+        The camera is reserved for optional augmented reality (AR) visualization of EMF patterns. We do not collect, store, or transmit video to external servers.
+    </string>
+</resources>

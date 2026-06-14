@@ -1,0 +1,11 @@
+<!-- 기본 AndroidManifest.xml 의 <manifest> 태그 안에 아래 줄들을 붙여 넣으세요. -->
+<!--
+  스토어·심사 고지(한국어):
+  • 자기장: 학습 공간 환경 분석·시각화 전용. 원시 데이터는 기기 내부에서만 처리(온디바이스)하며 서버 업로드 없음.
+  • 카메라(선택): AR 전자기 오버레이 전용. 영상 원격 전송 없음.
+  • 인터넷(선택): 100샘플 요약에 한해 선택적 Gemini 호출. 미설정 시 호출 안 함.
+-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />

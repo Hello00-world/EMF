@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 인앱 허용 요청·개인정보 고지용 (심사·스토어 설명과 정합 유지 권장) -->
+    <string name="sensor_magnetometer_rationale">
+        자기장 센서는 주변 전자기 환경을 측정·시각화하는 데만 사용됩니다. 원시 측정값은 기기 내부에서 처리되며(온디바이스), 당사 서버로 업로드하지 않습니다.
+    </string>
+    <string name="camera_ar_rationale">
+        카메라는 향후 증강현실(AR) 전자기 히트맵 표시에만 사용되며, 촬영 영상을 수집·저장·외부 전송하지 않습니다.
+    </string>
+</resources>
